@@ -44,4 +44,17 @@ packer.startup(function (use)
 	use "windwp/nvim-autopairs"
 	use 'karb94/neoscroll.nvim'
 	use 'sts10/vim-pink-moon'
+	use {
+		'folke/noice.nvim',
+		requires = {
+    			"MunifTanjim/nui.nvim",
+    		}
+	}
+	use "lukas-reineke/lsp-format.nvim"
+	use 'jose-elias-alvarez/null-ls.nvim'
+	use 'voldikss/vim-floaterm'
+	use 'christoomey/vim-tmux-navigator'
+	use 'ray-x/go.nvim'
+	use 'tpope/vim-dadbod'
+	use 'kristijanhusak/vim-dadbod-ui'
 end)

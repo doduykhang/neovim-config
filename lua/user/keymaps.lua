@@ -20,8 +20,6 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
-
-
 --dap
 keymap("n", "<leader>db", ":lua require('dap').toggle_breakpoint() <CR>", opts)
 keymap("n", "<leader>dc", ":lua require('dap').continue() <CR>", opts)
@@ -34,3 +32,5 @@ keymap("n", "<leader>dt", ":lua require('dap').terminate() <CR>", opts)
 
 --nvim-treee
 keymap("n", "<leader>e", ":NvimTreeToggle <CR>", opts)
+
+keymap("n", "<leader>tg", ":FloatermNew lazygit  <CR>", opts)
